@@ -33,14 +33,9 @@ class Mortgage extends Backend
     {
         $row = $this->model->get($ids);
 
-//        $redis = new \Redis();
-//
-//        $redis->connect('127.0.0.1', 6379);
-//
-//        $redis->set('a',5);
+        $a = new \app\admin\controller\Index();
 
-echo phpinfo();
-//        dump($redis->get('a'));
+        dump($a->build());
         die;
         if (!$row)
             $this->error(__('No Results were found'));
