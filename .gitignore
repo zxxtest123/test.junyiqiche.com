@@ -2,8 +2,11 @@
 /thinkphp/
 /vendor/
 /runtime/*
+#/addons/*
 /application/admin/command/Install/*.lock
-
+#/public/assets/libs/
+#/public/assets/addons/*
+/public/uploads/*
 #/application/config.php
 
 .idea
@@ -13,8 +16,5 @@ composer.lock
 !.gitkeep
 .env
 /runtime
-/application/extra/addons.php
-/public/assets/js/addons.js
-
- 
-/runtime
+#/application/extra/addons.php
+#/public/assets/js/addons.js
