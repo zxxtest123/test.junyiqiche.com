@@ -1,3 +1,0 @@
-define(['form'], function (Form) {
-
-});
